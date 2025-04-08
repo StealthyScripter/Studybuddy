@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { StatusBar, LogBox } from 'react-native';
 import { Provider as PaperProvider } from 'react-native-paper';
-import AppNavigator from './navigation/AppNavigator';
-import { ThemeProvider } from './context/ThemeContext';
-import { initializeFileStorage } from './services/fileService';
+import AppNavigator from './src/navigation/AppNavigator';
+import { ThemeProvider } from './src/context/ThemeContext';
+import { initializeFileStorage } from './src/services/fileService';
 
 // Ignore specific warnings for development
 LogBox.ignoreLogs([

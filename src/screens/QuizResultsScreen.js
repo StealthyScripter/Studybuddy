@@ -1,3 +1,4 @@
+// src/screens/HomeScreen.js
 import React from 'react';
 import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
 import { useTheme } from '../context/ThemeContext';
@@ -8,7 +9,7 @@ const HomeScreen = ({ navigation }) => {
   return (
     <View style={[styles.container, { backgroundColor: colors.background }]}>
       <Text style={[styles.title, { color: colors.text }]}>
-        Study Screen coming soon!
+        Quiz Results screen coming soon!
       </Text>
       <Text style={[styles.subtitle, { color: colors.subtext }]}>
         Your AI-powered study assistant
